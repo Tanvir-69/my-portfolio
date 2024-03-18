@@ -1,0 +1,20 @@
+.mainBlogContainer {
+  padding: 3em;
+}
+.blogTitleContainer {
+  text-align: center;
+  border-color: white;
+  border-width: 2px;
+  border-left: 0px;
+  border-right: 0px;
+  border-style: dashed;
+}
+.blogTitle {
+  font-size: 3em;
+}
+.blogContainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 1em;
+  padding: 5em;
+}

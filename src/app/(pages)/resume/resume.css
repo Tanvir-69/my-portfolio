@@ -1,0 +1,34 @@
+.resumeMainContainer {
+  display: grid;
+  width: 100%;
+  /* height: 200px; */
+  grid-template-areas:
+    "head head"
+    "sidebar main";
+  grid-template-rows: 15.5em 1fr;
+  grid-template-columns: 15em 1fr;
+}
+.resumeHeaderContainer {
+  grid-area: head;
+  background-color: #343436;
+
+  /* padding: 2em; */
+}
+.headerCon {
+  padding: 2em;
+  display: flex;
+  gap: 50px;
+}
+.resumeSideBarContainer {
+  grid-area: sidebar;
+  background-color: #343436;
+}
+.resumeMainBodyContainer {
+  grid-area: main;
+  background-color: #fff;
+  color: #000;
+}
+.image {
+  width: 180px;
+  border-radius: 1em;
+}

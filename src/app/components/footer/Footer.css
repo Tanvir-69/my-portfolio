@@ -1,0 +1,20 @@
+.footerContainer {
+  height: 4.6em;
+  display: flex;
+  justify-content: space-around;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-width: 1px;
+  padding-top: 10px;
+}
+.footerLinkContainer {
+  display: flex;
+  gap: 1em;
+}
+.icon {
+  background-color: #fff;
+  color: #fff;
+  width: 40px;
+  height: 30px;
+}

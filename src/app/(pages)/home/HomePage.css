@@ -1,0 +1,21 @@
+.mainContainer {
+  display: flex;
+  align-items: center;
+  /* padding: 10px; */
+}
+.image {
+  clip-path: circle(35%);
+  width: 35em;
+}
+
+.contentContainer {
+  padding-left: 120px;
+}
+.text {
+  font-size: 3em;
+}
+.btnGroup {
+  display: flex;
+  padding-top: 2em;
+  gap: 3em;
+}

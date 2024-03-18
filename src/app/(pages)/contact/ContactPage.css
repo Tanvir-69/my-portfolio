@@ -1,0 +1,11 @@
+.formMainContainer {
+  padding: 5em;
+  display: grid;
+  justify-content: center;
+}
+.headText {
+  font-size: 2em;
+}
+.darkBlue {
+  color: #db350c;
+}

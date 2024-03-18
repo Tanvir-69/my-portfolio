@@ -1,0 +1,19 @@
+.blogCardContainer {
+  border-width: 3px;
+  border-color: white;
+
+  transition: 0.2s;
+  overflow: hidden;
+}
+.blogCardContainer:hover {
+  transform: scale(1.03);
+}
+.blogCardImageContainer {
+  /* width: 30em; */
+}
+.cardImage {
+  /* width: auto; */
+}
+.blogCardDetails {
+  /* padding-left: 1em; */
+}

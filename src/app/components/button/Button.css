@@ -1,0 +1,14 @@
+.btnContainer {
+  width: 14em;
+  border-width: 1px;
+  border-radius: 0.5em;
+  border-color: aliceblue;
+  padding: 10px;
+  cursor: pointer;
+}
+.btnContainer:hover {
+  background-color: #004fc3;
+}
+.button {
+  margin: auto 3em auto 3em;
+}

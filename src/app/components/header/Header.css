@@ -1,0 +1,26 @@
+.headerContainer {
+  display: flex;
+  /* background-color: white; */
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  /* padding: 2em; */
+  padding: 5px 30px 5px 50px;
+}
+.headerLogoContainer {
+}
+.headerLogo {
+  border-radius: 10px;
+  width: 60px;
+}
+.headerBtnContainer {
+}
+.headerBtnItems {
+  display: flex;
+  gap: 6em;
+}
+.headerBtnItem {
+}
+.active {
+  color: #db350c;
+}
